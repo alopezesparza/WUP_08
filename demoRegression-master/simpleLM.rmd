@@ -79,7 +79,13 @@ this ones residual error is 7.511 and the adjusted r square is 0.5073, ranking t
 ## Compare all models that predict LENGTH other than NECK. Then order them from worst to best by its value of Adjusted-Rsquared (bigger is better), or by RSE (residual standard error) where smaller is better. 
 
 
-
+above are six separate models with their own adjusted- rsquared number and residual standard error number. these are NECK (RSE- 5.376, ARS- 0.7476), CHEST (RSE- 4.939, ARS- 0.7869), HEADWTH (RSE-7.32, ASR- 0.5321), WEIGHT(RSE-5.432, ASR- 0.7423) HEADLEN(RSE-4.325, ASR-0.8434), and AGE (RSE-7.511,ASR-0.5073). Ranking these from worst models to best it would be
+6. AGE
+5. HEADWTH
+4. WEIGHT
+3. NECK
+2. CHEST
+1. HEADLEN
 
 
 
