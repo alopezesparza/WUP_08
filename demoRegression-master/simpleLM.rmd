@@ -36,5 +36,7 @@ abline(bearchest)
 summary.lm(bearchest)
 ```
 
+In the picture, the residual standard errors is 4.939, compared to the one with the neck, this one is better because the number is lower. the adjusted r square is 0.7869. so far with ranking, Chest ranks above neck.  
+
 
 ## Compare all models that predict LENGTH other than NECK. Then order them from worst to best by its value of Adjusted-Rsquared (bigger is better), or by RSE (residual standard error) where smaller is better. 
