@@ -49,5 +49,15 @@ summary.lm(bearhead)
 This model compared to the others, had an adjusted r square of 0.5321 and a residual standard error of 7.32. this one would be ranked last compared to the other two.  
 
 
+```{r}
+bearweight <- lm(LENGTH~ WEIGHT,data=bears)
+plot(LENGTH~WEIGHT,data=bears)
+abline(bearweight)
+summary.lm(bearweight)
+```
+With this data, the residual standard error is 5.432 and the adjusted r square is 0.7423. this puts this before above neck and below the chest, still leaving the head width last.   
+
+
+
 ## Compare all models that predict LENGTH other than NECK. Then order them from worst to best by its value of Adjusted-Rsquared (bigger is better), or by RSE (residual standard error) where smaller is better. 
 
