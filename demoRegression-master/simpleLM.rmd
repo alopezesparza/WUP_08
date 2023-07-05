@@ -64,7 +64,14 @@ plot(LENGTH~HEADLEN,data=bears)
 abline(bearheadlength)
 summary.lm(bearheadlength)
 ```
-The residual standard error is 4.235 and the adjusted r sqare is 0.8434. this means that this bear would be ranked in first place. 
+The residual standard error is 4.235 and the adjusted r square is 0.8434. this means that this bear would be ranked in first place. 
 
+
+```{r}
+bearage <- lm(LENGTH~ AGE,data=bears)
+plot(LENGTH~AGE,data=bears)
+abline(bearage)
+summary.lm(bearage)
+``` 
 
 ## Compare all models that predict LENGTH other than NECK. Then order them from worst to best by its value of Adjusted-Rsquared (bigger is better), or by RSE (residual standard error) where smaller is better. 
