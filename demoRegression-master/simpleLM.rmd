@@ -73,5 +73,14 @@ plot(LENGTH~AGE,data=bears)
 abline(bearage)
 summary.lm(bearage)
 ``` 
+this ones residual error is 7.511 and the adjusted r square is 0.5073, ranking this one last, below headwth.  
+
 
 ## Compare all models that predict LENGTH other than NECK. Then order them from worst to best by its value of Adjusted-Rsquared (bigger is better), or by RSE (residual standard error) where smaller is better. 
+
+
+
+
+
+
+
