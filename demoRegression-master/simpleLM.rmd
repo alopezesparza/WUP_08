@@ -27,6 +27,7 @@ abline(simp)
 summary.lm(simp)
 ```
 
+the bears neck measured about 20 inches in neck and on the line it appears to be about 57 inches in length. in the plot, the tightest to the line is the one that's going to be the best model, residual standard error is that the smaller the number the better your model is. there's adjusted r square and there's residual standard error.  
 
 ## Compare all models that predict LENGTH other than NECK. Then order them from worst to best by its value of Adjusted-Rsquared (bigger is better), or by RSE (residual standard error) where smaller is better. 
 
