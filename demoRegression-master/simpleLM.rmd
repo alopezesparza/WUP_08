@@ -27,39 +27,5 @@ abline(simp)
 summary.lm(simp)
 ```
 
-the bears neck measured about 20 inches in neck and on the line it appears to be about 57 inches in length. in the plot, the tightest to the line is the one that's going to be the best model, residual standard error is that the smaller the number the better your model is. there's adjusted r square and there's residual standard error. the residual standard error is 5.376. in the adjusted r square, bigger is better and in this one its 0.7476  
-
-
-```{r}
-bearchest <- lm(LENGTH~CHEST,data=bears)
-plot(LENGTH~CHEST,data=bears)
-abline(bearchest)
-summary.lm(bearchest)
-```
-in the picture, the residual standard errors is 4.939, compared to the one with the neck, this one is better because the number is lower. the adjusted r square is 0.7869. so far with ranking, Chest ranks above neck.    
- 
- 
- 
-```{r}
-bearhead <- lm(LENGTH~HEADWTH,data=bears)
-plot(LENGTH~HEADWTH,data=bears)
-abline(bearhead)
-summary.lm(bearhead)
-```
-This model compared to the others, had an adjusted r square of 0.5321 and a residual standard error of 7.32. this one would be ranked last compared to the other two.  
-
-
-```{r}
-bearweight <- lm(LENGTH~ WEIGHT,data=bears)
-plot(LENGTH~WEIGHT,data=bears)
-abline(bearweight)
-summary.lm(bearweight)
-```
-With this data, the residual standard error is 5.432 and the adjusted r square is 0.7423. this puts this before above neck and below the chest, still leaving the head width last.    
-
-
 
 ## Compare all models that predict LENGTH other than NECK. Then order them from worst to best by its value of Adjusted-Rsquared (bigger is better), or by RSE (residual standard error) where smaller is better. 
-
-
-
