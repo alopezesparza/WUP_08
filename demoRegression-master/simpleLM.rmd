@@ -26,7 +26,7 @@ plot(LENGTH~NECK,data=bears)
 abline(simp)
 summary.lm(simp)
 ```
-  
+ the bears neck measured about 20 inches in neck and on the line it appears to be about 57 inches in length. in the plot, the tightest to the line is the one that's going to be the best model, residual standard error is that the smaller the number the better your model is. there's adjusted r square and there's residual standard error. the residual standard error is 5.376. in the adjusted r square, bigger is better and in this one its 0.7476    
 
 
 
